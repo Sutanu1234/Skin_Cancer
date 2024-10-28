@@ -10,7 +10,7 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
 # Define paths
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/SC_Detaction_Model_First.keras"
+model_path = f"{working_dir}SC_Detaction_Model_First.keras"
 
 # Load the pre-trained model
 try:
