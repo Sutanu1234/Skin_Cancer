@@ -43,7 +43,7 @@ def predict_image_class(model, image_file):
     return class_indices[str(predicted_class_index)]
 
 # Streamlit App
-st.title('Plant Disease Classifier')
+st.title('Skin Cancer Detaction CNN Model')
 
 # Upload an image
 uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
